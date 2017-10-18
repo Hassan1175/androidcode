@@ -72,10 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 int multiply = Integer.parseInt(A) * Integer.parseInt(B);
                 tv.setText(String.valueOf(multiply));
                 break;
-            case R.id.button4:
-                int divide = Integer.parseInt(A) / Integer.parseInt(B);
-                tv.setText(String.valueOf(divide));
-                break;
+
 
 
         }
